@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<div class="success"><span class="eyebrow">ORDER RECEIVED</span><h1>Thank you!</h1><p>Your order <strong>#{{ order_id }}</strong> has been recorded.</p><h2>{{ money(total) }}</h2><a class="btn" href="{{ url_for('shop') }}">Continue shopping</a></div>{% endblock %}
